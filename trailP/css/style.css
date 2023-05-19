@@ -1,0 +1,168 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+:root
+{
+    --bg-black-900: #8585a5;
+    --bg-black-100: #fdf9ff;
+    --bg-black-50:#e8dfec;
+    --text-black-900:#302e4d;
+    --text-black-700:#504e70;
+}
+* 
+{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  text-decoration: none; 
+  box-sizing: border-box;
+} 
+body
+{
+  line-height: 1.5;
+  font-size: 16px;
+  font-family: 'Nunito';
+  font-size: 1rem;
+  /* background-color: var(--bg-slate); */
+}
+.nav-banner
+{
+  position: fixed;
+  z-index: 100;
+  right: 0;
+  left: 0;
+  top: 1px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  background-color: #abaac5;
+}
+#menubtn
+{
+  background-color: transparent;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  height: 60px;
+  justify-content: center;
+  width: auto;
+  padding: 0 45px 0 45px;
+  cursor: pointer;
+}
+#menubtn div 
+{
+  height: 3.5px;
+  background: var(--bg-black-50);
+  margin-bottom: 5px;
+  transition: background-color 0.05s ease-in-out;
+
+}
+.container
+{
+  max-width: 1100px;
+  width: 100%;
+  margin: auto;
+  display: inline;
+  position: relative;
+}
+.home-section
+{
+  min-height: 200vh;
+  margin-top: 35px;
+  background-color: rgb(211, 34, 64);
+  display: flex;
+}
+.banner-inner 
+{
+  font-size: xx-large;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+.banner-inner a
+{
+  text-decoration: none;
+  color: black;
+}
+.menu-bar
+{
+  margin-right: 40px;
+  margin-top: 10px;
+}
+.import-section
+{
+  min-height: 200vh;
+  margin-top: 0;
+  background-color: #504e70;
+  color: #e8dfec;
+  text-align: center;
+  font-size: 80px;
+  font-weight: 500px;
+}
+.platform-section
+{
+  min-height: 200vh;
+  margin-top: 0;
+  background-color: aqua;
+  display: flex;
+
+}
+.foot-section
+{
+  min-height: 200vh;
+  margin-top: 0;
+  background-color: #126126;
+}
+.home-dj
+{
+  color: var(--text-black-900);
+  font-weight: 1000;
+  padding: 15px 20px;
+  font-size: 100px;
+  letter-spacing: 4px;
+  position: relative;
+}
+.home-text
+{
+  margin-left: 20px;
+  position: relative;
+}
+.dwlbtn
+{
+  padding: 15px;
+  background-color: #462a70;
+  border: none;
+  margin-left: 40px;
+  border-radius: 5px;
+}
+.dwlbtn a
+{
+  text-decoration: none;
+  color: black;
+}
+.home-left
+{
+  width: 45%;
+}
+.home-right
+{
+  margin-top: 50px;
+}
+.plt-left
+{
+  width: 50%;
+  margin-top: 150px;
+  
+}
+.plt-right
+{
+  width: 40%;
+  margin-top: 100px;
+}
+.plt-right img
+{
+  height: auto;
+  max-width: 100%;
+  position: relative;
+  display: block;
+}

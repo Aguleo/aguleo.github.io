@@ -1,0 +1,142 @@
+.bg-primary-alt {
+    background-color: #263340 !important;
+}
+
+.bg-secondary-alt {
+    background-color: #e04270 !important;
+}
+
+.text-primary-alt {
+    color: #e04270 !important;
+}
+
+.gradient-text {
+    background: linear-gradient(to right, #874478, #e04270);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn-primary-alt {
+    color: #fff;
+    background: linear-gradient(to right, #874478, #e04270);
+    border: 1px solid #fe6b94;
+    width: 50%;
+}
+
+.btn-primary-alt:hover {
+    color: #fff;
+    border: 1px solid 263340;
+}
+
+.sticky-top {
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+}
+
+.navbar-toggler {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 1030;
+    margin-right: 20px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.navbar-collapse {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    height: 100vh;
+    width: 300px;
+    transition: right 0.3s ease-in-out;
+}
+
+.navbar-collapse.show {
+    right: 0;
+}
+
+#navbarNav {
+    height: 100%;
+    padding-top: 40px;
+    padding-left: 20px;
+    box-shadow: 0 5px 5px #e0426f9f;
+}
+
+.nav-link {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navbar-nav {
+    padding: 20px;
+}
+
+.navbar-nav {
+    display: block;
+    margin-left: 0 !important;
+}
+
+.img {
+    max-width: 100%;
+}
+
+.main-img {
+    display: block;
+    box-shadow: -11px -15px 80px #e0426f9f;
+}
+
+.social {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 50px;
+    justify-items: center;
+}
+
+.icons img {
+    max-width: 40%;
+    margin-bottom: 15px;
+}
+
+@media (min-width: 992px) {
+    .navbar-toggler {
+        display: block !important;
+    }
+
+    .main-img {
+        width: 55%;
+    }
+
+    .social {
+        position: absolute;
+        bottom: 100px;
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 767.98px) {
+    .navbar-nav {
+        margin-right: 30%;
+    }
+
+    .main-img {
+        width: 55%;
+    }
+    
+    .icons {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
